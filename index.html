@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faysal Mehrab Chowdhury - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+</head>
+<body>
+    <header>
+<!-- Inside your <header> -->
+<nav>
+    <div class="logo">FMC</div>
+    <ul id="nav-links"> <!-- Add an ID here -->
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+    <!-- Add this button -->
+    <button class="hamburger" id="hamburger-menu" aria-label="Toggle menu">
+        <i class="fas fa-bars"></i>
+    </button>
+</nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="hero-content">
+                <h1>Faysal Mehrab Chowdhury</h1>
+                <p>Machine Learning and AI Developer</p>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/faysal-mehrab-chowdhury-a497a31b1/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/FaysalMehrab" target="_blank" aria-label="Github"><i class="fab fa-github"></i></a>
+                </div>
+                <a href="#projects" class="cta-button">View My Work</a>
+            </div>
+        </section>
+
+        <section id="about" class="container">
+            <h2>About Me</h2>
+            <p>
+                A passionate and results-driven Machine Learning and AI Developer with a strong foundation in computer vision, natural language processing, and predictive analytics. Experienced in developing and deploying robust machine learning models and creating dynamic web applications. A collaborative team player with a knack for problem-solving and a commitment to continuous learning and innovation.
+            </p>
+        </section>
+
+       <!-- REPLACE THE ENTIRE SKILLS SECTION WITH THIS -->
+<section id="skills" class="container">
+    <h2>Technical Skills</h2>
+    <div class="skills-grid">
+        <div class="skill-category">
+            <h3>Programming & Databases</h3>
+            <div class="skills-list">
+                <div class="skill-item"><i class="devicon-python-plain"></i><span>Python</span></div>
+                <div class="skill-item"><i class="devicon-cplusplus-plain"></i><span>C++</span></div>
+                <div class="skill-item"><i class="devicon-php-plain"></i><span>PHP</span></div>
+                <div class="skill-item"><i class="devicon-java-plain"></i><span>Java</span></div>
+                <div class="skill-item"><i class="devicon-mysql-plain"></i><span>MySQL</span></div>
+                <div class="skill-item"><i class="devicon-mongodb-plain"></i><span>MongoDB</span></div>
+            </div>
+        </div>
+        <div class="skill-category">
+            <h3>Machine Learning & AI</h3>
+            <div class="skills-list">
+                <div class="skill-item"><i class="devicon-tensorflow-original"></i><span>TensorFlow</span></div>
+                <div class="skill-item"><i class="devicon-pytorch-plain"></i><span>PyTorch</span></div>
+                <div class="skill-item"><span>Scikit-Learn</span></div> <!-- No official icon -->
+                <div class="skill-item"><span>Keras</span></div> <!-- No official icon -->
+                <div class="skill-item"><span>Computer Vision</span></div>
+                <div class="skill-item"><span>YOLOv12</span></div>
+            </div>
+        </div>
+        <div class="skill-category">
+            <h3>Web Dev & Deployment</h3>
+            <div class="skills-list">
+                <div class="skill-item"><i class="devicon-html5-plain"></i><span>HTML5</span></div>
+                <div class="skill-item"><i class="devicon-css3-plain"></i><span>CSS3</span></div>
+                <div class="skill-item"><i class="devicon-javascript-plain"></i><span>JavaScript</span></div>
+                <div class="skill-item"><i class="devicon-flask-original"></i><span>Flask</span></div>
+                <div class="skill-item"><i class="devicon-docker-plain"></i><span>Docker</span></div>
+                <div class="skill-item"><i class="devicon-heroku-original"></i><span>Heroku</span></div>
+            </div>
+        </div>
+        <div class="skill-category">
+            <h3>Additional Technologies</h3>
+            <div class="skills-list">
+                 <div class="skill-item"><span>WebRTC</span></div>
+                 <div class="skill-item"><i class="devicon-opencv-plain"></i><span>OpenCV</span></div>
+                 <div class="skill-item"><span>MediaPipe</span></div>
+                 <div class="skill-item"><i class="devicon-unrealengine-original"></i><span>Unreal Engine</span></div>
+                 <div class="skill-item"><i class="devicon-arduino-plain"></i><span>Arduino</span></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+        <section id="projects" class="container">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+               <div class="project-card">
+    <div class="project-card-content">
+        <h3>Spam, Malware & Phishing Detection using Generative AI</h3>
+        <p>Developed a Flask-based security analysis platform integrating Gemini 1.5 Flash AI for threat detection with PDF/TXT and URL analysis features.</p>
+        <div class="project-technologies">Flask, Gemini 1.5 Flash AI, HTML5, CSS3, JavaScript</div>
+        <!-- MODIFIED SECTION -->
+        <div class="project-links">
+            <a href="https://github.com/FaysalMehrab/Spam_Malware_Phishing_Detection_using_Generative_AI" target="_blank" class="project-button">Git Repository</a>
+            <a href="https://spam-phishing-malware-detection-using-sm79.onrender.com" target="_blank" class="live-model-button">Live Model</a>
+        </div>
+    </div>
+</div>
+
+<!-- Project 2 -->
+<div class="project-card">
+    <div class="project-card-content">
+        <h3>Real-Time Human Detection with YOLOv12 and WebRTC</h3>
+        <p>Developed a YOLOv12-powered human detection application utilizing WebRTC and Docker for real-time deployment.</p>
+        <div class="project-technologies">YOLOv12, WebRTC, Docker</div>
+        <!-- MODIFIED SECTION -->
+        <div class="project-links">
+            <a href="https://github.com/FaysalMehrab/human_detection_yolov12_with_flask.git" target="_blank" class="project-button">Git Repository</a>
+            <a href="https://human-detection-yolov12-with-flask-br6t.onrender.com" target="_blank" class="live-model-button">Live Model</a>
+        </div>
+    </div>
+</div>
+
+<!-- Project 3 -->
+<div class="project-card">
+    <div class="project-card-content">
+        <h3>Real-Time Pose Estimation Web Application</h3>
+        <p>Developed a real-time pose detection web application using TensorFlow.js and MoveNet.</p>
+        <div class="project-technologies">TensorFlow.js, MoveNet</div>
+        <!-- MODIFIED SECTION -->
+        <div class="project-links">
+            <a href="https://github.com/FaysalMehrab/motion_capture_with_TensorFlow.js_and_MoveNet.git" target="_blank" class="project-button">Git Repository</a>
+            <a href="https://motion-capture-with-tensorflow-js-and.onrender.com" target="_blank" class="live-model-button">Live Model</a>
+        </div>
+    </div>
+</div>
+                 <div class="project-card">
+                     <div class="project-card-content"> 
+                    <h3>Real-Time Sign Language Recognition</h3>
+                    <p>Developed a real-time hand gesture and sign language recognition system using OpenCV and MediaPipe.</p>
+                    <div class="project-technologies">OpenCV, MediaPipe, PyTorch</div>
+                    <div class="project-links">
+                        <a href="https://github.com/FaysalMehrab/Sign-language-using-hand-landmarks_using_Mediapipe_and_Torch.git" target="_blank" class="project-button">Git Repository</a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="experience" class="container">
+            <h2>Work Experience</h2>
+            <div class="experience-item">
+                <h3>Freelance Machine Learning and AI Developer</h3>
+                <p class="experience-details"><strong>Fiverr</strong> | 2024 - Present</p>
+                <ul>
+                    <li>Developed and deployed a variety of machine learning models for clients, specializing in computer vision, natural language processing (NLP), and predictive analytics.</li>
+                    <li>Created solutions using Python, TensorFlow, PyTorch, and Scikit-Learn, and deployed them using Docker and cloud platforms such as Render.</li>
+                </ul>
+            </div>
+        </section>
+
+        
+        <section id="contact">
+            <!-- ADD THIS DIV FOR THE ANIMATION -->
+            <div id="particles-js"></div>
+
+            <div class="container">
+                <h2>Get in Touch</h2>
+                <p>I'm currently open to new opportunities. Feel free to contact me.</p>
+                <form id="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="cta-button">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Faysal Mehrab Chowdhury. All Rights Reserved.</p>
+    </footer>
+
+    <!-- ADD THE PARTICLES.JS LIBRARY HERE -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    
+    <!-- Your existing script tag -->
+    <script src="script.js"></script>
+</body>
+</html>
