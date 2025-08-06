@@ -10,7 +10,7 @@
 <h3 align="center">A Passionate Machine Learning and AI Developer from Dhaka, Bangladesh 🇧🇩</h3>
 
 <p align="center">
-  <a href="https://faysalmehrab.github.io/your-portfolio-repo/" target="_blank">
+  <a href="[https://faysalmehrab.github.io/your-portfolio-repo/](https://faysalmehrab.github.io/Portfolio/)" target="_blank">
     <img src="https://img.shields.io/badge/Portfolio-WebApp-blue?style=for-the-badge&logo=google-chrome" />
   </a>
 </p>
